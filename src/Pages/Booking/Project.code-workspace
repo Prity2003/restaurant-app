@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../Desktop/Prity/Project"
+		},
+		{
+			"path": "../../.."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Project"
+	}
+}

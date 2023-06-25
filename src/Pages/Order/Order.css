@@ -1,0 +1,181 @@
+.order{
+    display: block;
+    width: 100%;
+    height: 800px;
+    background-color: rgb(61, 60, 60);
+    justify-content: center;
+    align-items: center;
+}
+.order-para1{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.9rem;
+    font-weight: 300;
+    color: white;
+    /* margin-top: 10px; */
+    padding: 20px;
+}
+.order-para2{
+    display: block;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: white;
+    margin: 8px;
+    padding: 10px;
+}
+.order-container{
+    display: block;
+    direction: center;
+    height: 500px;
+    width: 450px;
+    background-color: white;
+    border: 1px solid white;
+    justify-content: center;
+    text-align: center;
+    align-items: center; 
+    margin-left: 400px;
+    margin-top: 30px;
+}
+.order-box h2{
+    justify-content: center;
+    text-align: center;
+    color: black;
+    padding: 20px 0px;
+
+}
+.order-button{
+    display: block;
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.button1,
+.button2{
+    /* display: flex; */
+    /* flex-direction: row; */
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    justify-content: center;
+    background-color: gray;
+    font-size: 1.1rem;
+}
+.button1,
+.button2:hover{
+    /* display: flex; */
+    /* flex-direction: row; */
+    height: 50px;
+    width: 200px;
+    border: 1px solid black;
+    justify-content: center;
+    background-color: aqua;
+}
+.pickup{
+justify-content: left;
+}
+.pickup label {
+	font-size: 1.3rem;
+	font-family: Poppins;
+	color: black;
+	font-weight: 100;
+    justify-content: left;
+    text-align: left;
+    margin-left: 30px;
+}
+.pickup select {
+	display: block;
+    height: 50px;
+    width: 400px;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    margin-left: 30px;
+}
+.pickup-link{
+    float: right;
+    margin-right: 9px;
+}
+.dine-in{
+    justify-content: left;
+    }
+    .dine-in label {
+        font-size: 1.3rem;
+        font-family: Poppins;
+        color: black;
+        font-weight: 100;
+        justify-content: left;
+        text-align: left;
+        margin-left: 30px;
+    }
+    .dine-in input {
+        display: block;
+        height: 50px;
+        width: 400px;
+        border: 1px solid black;
+        justify-content: center;
+        align-items: center;
+        margin: 10px;
+        margin-left: 30px;
+    }
+.order-now button{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: 1px solid black;
+    border-radius: 3px;
+    /* background-color: blue; */
+    font-size: 1.1rem;
+}
+.order-now button:hover{
+    justify-content: center;
+    text-align: center;
+    display: block;
+    height: 40px;
+    width: 200px;
+    margin-top: 30px;
+    margin-left: 120px;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+    font-size: 1.1rem;
+}
+.order-now button a{
+    text-decoration: none;
+    color: black;
+}
+.order-now button a:hover{
+    text-decoration: none;
+    color: white;
+}
+
+
+@media screen and (max-width: 768px) {
+    .order-box {
+        width: 100%;
+        margin: 20px;
+    }
+    
+    .order-button,
+    .pickup select,
+    .dine-in input {
+        width: 100%;
+        margin: 10px;
+    }
+    
+    .order-now button {
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
