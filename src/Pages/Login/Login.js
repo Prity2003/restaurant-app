@@ -88,7 +88,7 @@ const Login = ({login}) => {
             </div>
             <br />
             <div className="button">
-              <input type="button" onClick={handleSubmit} value="Login" />
+              <input type="button" onClick={handleSubmit} value="Login"/> <a href={'<FontAwesomeIcon icon="fa-solid fa-user" />'}> </a> 
             </div>
           </form>
           <div className="signup">

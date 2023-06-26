@@ -26,7 +26,7 @@
     margin: 8px;
     padding: 10px;
 }
-.order-container{
+.order-box{
     display: block;
     direction: center;
     height: 500px;
@@ -112,7 +112,7 @@ justify-content: left;
         font-weight: 100;
         justify-content: left;
         text-align: left;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
     .dine-in input {
         display: block;
@@ -122,7 +122,7 @@ justify-content: left;
         justify-content: center;
         align-items: center;
         margin: 10px;
-        margin-left: 30px;
+        /* margin-left: 30px; */
     }
 .order-now button{
     justify-content: center;

@@ -13,10 +13,11 @@
     color: white;
 }
 .contact-box1{
-    display: block;
-    float: left;
+    display: flex;
+    flex-direction: column;  
+    float: left;  
     height: 500px;
-    width: 470px;
+    width: 400px;
     margin: 10px 40px;
     padding: 50px 50px;
     background-color:rgb(61, 60, 60);
@@ -138,12 +139,13 @@
 /* box-2 content */
 
 .contact-box2{
-    display: grid;
+    display: flex;
+    flex-direction: column;   
     float: right;
     height: 600px;
-    width: 650px;
-    margin: 6px 40px;
-    padding: 5px 5px;
+    width: 400px;
+    margin: 40px;
+    padding: 50px ;
     background-color: rgb(61, 60, 60);
     justify-content:center;
     align-items:center;
@@ -166,7 +168,7 @@
     font-weight: 100;
 }
 .form__group input {
-    width: 400px;
+    width: 300px;
     height: 0px;
     outline:none;
     background-color: rgb(61, 60, 60);
@@ -183,7 +185,7 @@
     color: white;
 }
 .form__group textarea{
-    width: 400px;
+    width: 300px;
     height: 3px;
     outline:none;
     text-decoration: none;
@@ -201,7 +203,7 @@
     color: white;
 }
 .btn button{
-    width: 400px;
+    width: 300px;
     height: 0px;
     outline:none;
     background-color: rgb(61, 60, 60);
@@ -218,7 +220,7 @@
     text-align: center;
 }
 .btn button:hover{
-    width: 400px;
+    width: 300px;
     height: 0px;
     outline:none;
     background-color: black;
@@ -237,7 +239,7 @@
 
 /* responsive */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .contact-box1 {
       float: left;
       width: 50%;
@@ -255,4 +257,4 @@
     .form__wrapper {
       margin-left: 0;
     }
-  }
+  } */
