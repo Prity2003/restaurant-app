@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import "./Cart.css";
 import Navbar from "../../Components/Navbar";
 import Footer from "../../Components/Footer";
-import PaymentForm from "./Payment";
+import PaymentForm from "./StripePayment";
 
 function Cart() {
   const [totalList, setTotalList] = useState([]);
