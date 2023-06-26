@@ -192,7 +192,7 @@
 
 /* responsive */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .login-container {
         flex-direction: column;
         padding: 20px;
@@ -203,4 +203,4 @@
         width: 100%;
         position: static;
     }
-}
+} */

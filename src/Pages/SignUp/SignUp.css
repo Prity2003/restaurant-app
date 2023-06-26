@@ -164,7 +164,7 @@
 
 /* responsive */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .signup-container{
         flex-direction: column;
         height: auto;
@@ -199,4 +199,4 @@
         margin-top: 10px;
         margin-left: 10px;
     }
-}
+} */

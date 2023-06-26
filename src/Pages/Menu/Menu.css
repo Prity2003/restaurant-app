@@ -109,7 +109,7 @@
 
 /* responsive */
 
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .menu {
       grid-template-columns: 1fr;
       grid-gap: 2px;
@@ -128,4 +128,4 @@
     .details > p {
       font-size: 14px;
     }
-  }
+  } */
