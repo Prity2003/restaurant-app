@@ -183,6 +183,8 @@
     border-radius: 1px;
     margin-top: 0.5rem;
     color: white;
+    text-align: center;
+    justify-content: center;
 }
 .form__group textarea{
     width: 300px;
