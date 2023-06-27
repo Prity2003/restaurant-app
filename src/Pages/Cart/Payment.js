@@ -149,6 +149,7 @@ const SplitForm = ({paymentSuccess}) => {
           placeholder="Enter card number"
           required
         /> */}
+        <div className="input">
           <CardNumberElement
             options={options}
             onReady={() => {
@@ -164,6 +165,7 @@ const SplitForm = ({paymentSuccess}) => {
               console.log("CardNumberElement [focus]");
             }}
           />
+          </div>
         </div>
         <div className='form-group'>
           <label htmlFor="expiryDate">Expiry Date:</label>
